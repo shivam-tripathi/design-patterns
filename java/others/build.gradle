@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+application {
+    mainClassName = 'com.patterns.others.Main'
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.3'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+	implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
+}
